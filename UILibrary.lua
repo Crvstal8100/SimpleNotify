@@ -35,6 +35,7 @@ function SimpleNotification:Create(name)
 
 	function Rah:Notify(text, duration)
 		text = text or "Label"
+		duration = duration or 5
 		
 		local TextLabel = Instance.new("TextLabel")
 
